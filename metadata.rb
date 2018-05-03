@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures tar'
 long_description 'Installs/Configures tar'
-version '0.1.0'
+version '1.0.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
@@ -19,3 +19,6 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 #
 # source_url 'https://github.com/<insert_org_here>/tar'
 
+depends 'seven_zip', '~> 2.0.2'
+
+depends 'tar', '~> 2.1.1'
