@@ -1,4 +1,4 @@
-name 'tar'
+name 'tar-extract-windows'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
